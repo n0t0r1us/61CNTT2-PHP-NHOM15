@@ -162,7 +162,20 @@ class User extends MY_Controller {
         redirect(admin_url('user'));
     }
 
-
+    public function deldetail() {
+        $id = $this->uri->segment(4);
+        $where = array();
+        $where = array('id' => $id);
+        if (!$this->order_model->check_exists($where)) {
+            $this->session->set_flashdata('message_fail', 'Danh mục không tồn tại');
+            redirect(admin_url('transaction'));
+        }
+        if ($this->order_model->delete($id)) {
+            $this->session->set_flashdata('message_success', 'Xóa thành công');
+        } else {
+            $this->session->set_flashdata('message_fail', 'Xóa thất bại');
+        }
+        redirect(admin_url('user'));
     }
 
 }
