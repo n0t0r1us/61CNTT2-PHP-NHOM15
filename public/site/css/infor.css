@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    box-sizing: border-box;
+}
+.swiper{
+    width: 900px;
+}
+section .card .image{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    padding: 3px;
+    background-color: orangered;
+}
+section .card .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+.card{
+    position: relative;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    margin: 120px 0;
+    width: 200px;
+}
+.card::before{
+    content: "";
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    background-color: lightsalmon;
+    border-radius: 20px 20px 0 0;
+}
+.card .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    position: relative;
+    z-index: 100;
+}
+.card .name-profession{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    color: #333;
+}
+.name-profession .name{
+    font-size: 20px;
+    font-weight: 600;
+}
+.name-profession .profession{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.card .media-icons{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.card .media-icons i{
+    color: lightsalmon;
+    opacity: 0.3;
+    margin-left: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.card .media-icons i:hover{
+    opacity: 1;
+}
+.card .media-icons a{
+    color: lightsalmon;
+    opacity: 0.3;
+    margin-left: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.card .media-icons a:hover{
+    opacity: 1;
+}
+.swiper-navBtn{
+    color: lightsalmon;
+    transition: color 0.3s ease;
+    opacity: 0.3;
+}
+.swiper-navBtn:hover{
+    opacity: 1;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+    font-size: 40px;
+}
+.swiper-pagination-bullet{
+    background-color: lightsalmon;
+    opacity: 0.3;
+}
+.swiper-pagination-bullet-active{
+    opacity: 1;
+}

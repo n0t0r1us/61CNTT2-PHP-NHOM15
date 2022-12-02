@@ -10,9 +10,9 @@
         <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8" style="padding-top: 10px">
             <address>
                 <strong>    SHOP Bán Quần Áo</strong><br>
-                <span class="glyphicon glyphicon-home" aria-hidden="true"></span> Địa chỉ: UTE - Cao Thắng - Đà Nẵng<br>
+                <span class="glyphicon glyphicon-home" aria-hidden="true"></span> Địa chỉ: Nha Trang - Khánh Hòa<br>
                 <span class="glyphicon glyphicon-phone" aria-hidden="true"></span> Điện thoại: 0123456789<br>
-                Copyright ©2017 - Design by ---
+                Copyright ©2022 - Design by ---
             </address>
         </div>
 
