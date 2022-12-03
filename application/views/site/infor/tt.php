@@ -14,7 +14,7 @@
                         <div class="name-profession">
                             <span class="name">Phan Nguyễn Đình Vũ</span>
                             <span class="profession">Leader</span>
-                            <span class="information">MSSV: 61130045</span>
+                            <span class="information">MSSV: 61131562</span>
                         </div>
                         <div class="media-icons">
                             <i class="bi bi-facebook"></i>
@@ -31,7 +31,7 @@
                         <div class="name-profession">
                             <span class="name">Trương Tấn Nghĩa</span>
                             <span class="profession">Web Developer</span>
-                            <span class="information">MSSV: 61130045</span>
+                            <span class="information">MSSV: 61131950</span>
                         </div>
                         <div class="media-icons">
                             <i class="bi bi-facebook"></i>
@@ -49,7 +49,7 @@
                         <div class="name-profession">
                             <span class="name">Nguyễn Anh Phương</span>
                             <span class="profession">Web Developer</span>
-                            <span class="information">MSSV: 61130045</span>
+                            <span class="information">MSSV: 61133153</span>
                         </div>
                         <div class="media-icons">
                             <i class="bi bi-facebook"></i>
@@ -98,25 +98,25 @@
         <div class="swiper-button-prev swiper-navBtn"></div>
         <div class="swiper-pagination"></div>
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-    <!-- Initialize Swiper -->
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
-        spaceBetween: 25,
-        loop: true,
-        centerSlider: 'true',
-        fade: 'true',
-        grabCursor: 'true',
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-          dynamicBullets: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-    </script>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 25,
+    loop: true,
+    centerSlider: 'true',
+    fade: 'true',
+    grabCursor: 'true',
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        dynamicBullets: true,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    });
+</script>
 </body>

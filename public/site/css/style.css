@@ -237,7 +237,7 @@ address {
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus{
     color: #fff;
     background-color: #333;
-    border-color: #none;
+    border-color: none;
 }
 .dropdown-btn.active {
     background-color: rgb(238, 77, 45) !important;

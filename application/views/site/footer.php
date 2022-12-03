@@ -1,7 +1,5 @@
-
-
-<div class="row" style="display: block;margin-bottom: 100px"></div>
-<!--<div class="row" id="footer" style="margin-top: 10px;padding-bottom: 60px;padding-top: 40px">
+<!-- <div class="row" style="display: block;margin-bottom: 100px"></div>
+<div class="row" id="footer" style="margin-top: 10px;padding-bottom: 60px;padding-top: 40px">
 
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <div class=" col-md-2" style="width: auto">
@@ -17,8 +15,8 @@
         </div>
 
         <div class="clearfix"></div>
-    </div>
-</div>-->
+    </div> 
+</div> -->
 
 <footer class="footer">
     <div class="container">
@@ -74,7 +72,7 @@
                         <script>
                             document.write(new Date().getFullYear());
                         </script>
-                        All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#" >Nhóm 18</a>
+                        All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#" >Nhóm 15</a>
                     </p>
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                 </div>
