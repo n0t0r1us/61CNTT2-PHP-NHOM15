@@ -3,7 +3,7 @@
 
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <div class=" col-md-2" style="width: auto">
-            <a href="https://ute.udn.vn/default.aspx" target="_blank"><img  style="max-width: 100px" src="<?php echo base_url(); ?>upload/logo-truong-250.png" alt="" class="img-responsive"></a>
+            <a href="https://ntu.edu.vn//default.aspx" target="_blank"><img  style="max-width: 100px" src="<?php echo base_url(); ?>upload/logo-truong-250.png" alt="" class="img-responsive"></a>
         </div>
         <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8" style="padding-top: 10px">
             <address>
